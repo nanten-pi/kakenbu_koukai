@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>科研部クイズ</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="script/script6.js"></script>
+</head>
+<body>
+
+<div class="quizzes-container">
+  <h1>クイズ  </h1>
+  <div class="quiz-container">
+    <h2>第1問</h2>
+    <div>
+      <p>塩酸と混ぜると中和するものは？</p>
+    </div>
+    <form id="quiz-1">
+      <input name="answer" type="radio" value="a">塩酸</input>
+      <input name="answer" type="radio" value="b">水酸化ナトリウム</input>
+      <input name="answer" type="radio" value="c">食塩</input>
+    </form>
+    <button class="btn" type="button" onclick="answerQuiz1();">回答する</button>
+  </div>
+
+  <div class="quiz-container">
+    <h2>第2問</h2>
+    <div>
+      <p>塩酸と水酸化ナトリウムが中和すると何ができるか</p>
+    </div>
+    <form id="quiz-2">
+      <input name="answer" type="radio" value="a">食塩</input>
+      <input  name="answer" type="radio" value="b">砂糖</input>
+      <input name="answer" type="radio" value="c">塩酸</input>
+    </form>
+    <button class="btn" type="button" onclick="answerQuiz2();">回答する</button>
+  </div>
+
+  <div class="quiz-container">
+    <h2>第3問</h2>
+    <div>
+      <p>赤色のリトマス試験紙に砂糖水を付けると何色になるか</p>
+    </div>
+    <form id="quiz-3">
+      <input name="answer" type="radio" value="a">赤色</input>
+      <input name="answer" type="radio" value="b">青色</input>
+      <input name="answer" type="radio" value="c">紫色</input>
+    </form>
+    <button class="btn" type="button" onclick="answerQuiz3();">回答する</button>
+  </div>
+
+  <div class="quiz-container">
+    <h2>第4問</h2>
+    <div>
+      <p>炭酸水に石灰水を入れると何色になるか</p>
+    </div>
+    <form id="quiz-4">
+      <input name="answer" type="radio" value="a">透明のまま</input>
+      <input name="answer" type="radio" value="b">青紫色</input>
+      <input name="answer" type="radio" value="c">白色</input>
+    </form>
+    <button class="btn" type="button" onclick="answerQuiz4();">回答する</button>
+  </div>
+
+  <div class="quiz-container">
+    <h2>第5問</h2>
+    <div>
+      <p>あなたは理科が好きですか？</p>
+    </div>
+    <form id="quiz-5">
+      <input name="answer" type="radio" value="a">はい</input>
+      <input name="answer" type="radio" value="b">イエス</input>
+      <input name="answer" type="radio" value="c">よろこんで</input>
+    </form>
+    <button class="btn" type="button" onclick="answerQuiz5();">回答する</button>
+  </div>
+<div id="score-container">
+  <p id="score-message"></p>
+</div>
+<button class="btn-score" type="button" onclick="showScore();">合計得点を見る</button>
+</div>
+<a href="quiz5.html"><<前のクイズ</a>
+<a href="quiz7.html"> 次のクイズ（次が最後のクイズです>></a>
+<p><a href="index.html"> トップページへ</a></p>
+</body>
